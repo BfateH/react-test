@@ -1,0 +1,156 @@
+/* footer */
+
+.footer__block {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+.footer__sberinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 35px;
+}
+
+.footer__sberinfo__phone {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer__sberinfo__title {
+    font-size: 14px;
+    color: var(--black-color);
+    margin-bottom: 50px;
+}
+
+.footer__sberinfo__logo__block {
+    margin-bottom: 30px;
+}
+
+.footer__sberinfo__copyright__block {
+    font-size: 14px;
+    color: var(--black-color);
+}
+
+.footer__contacts__politic {
+    margin-left: 15px;
+    font-size: 14px;
+    color: var(--black-color);
+}
+
+.footer__contacts__socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer__contacts__socials__apps {
+    display: flex;
+    align-items: center;
+}
+
+.footer__app {
+    margin-right: 10px;
+}
+
+.footer__app img {
+    width: 100%;
+}
+
+.footer__contacts__socials__networks {
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts__social__network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.footer__contacts__social__network a {
+    color: white;
+    font-size: 24px;
+}
+
+.footer__contacts__social__network.ok {
+    background-color: #FF9800;
+}
+
+.footer__contacts__social__network.fb {
+    background-color: #4064AD;
+}
+
+.footer__contacts__social__network.vk {
+    background-color:#4A76A8;
+}
+
+.footer__contacts__social__network.insta {
+    background: linear-gradient(49.12deg, #F1C800 6.62%, #F02501 37.84%, #C837AB 65%, #7C39AD 93.5%);
+}
+
+
+/* end footer */
+
+@media (max-width: 767px) {
+    /* footer */
+
+    .footer__block {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__sberinfo {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+
+    .footer__sberinfo__copyright__block {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* end footer */
+}
+
+@media (max-width: 575px) {
+    /* footer */
+    .footer__contacts__socials {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__contacts__social__network:first-child {
+        margin-left: 0;
+    }
+
+    /* end footer */
+}
+
+@media (max-width: 448px) {
+    /* footer */
+
+    .footer__sberinfo {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* end footer */
+}

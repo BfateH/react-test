@@ -1,0 +1,126 @@
+/* UI */
+
+.bg--white {
+    background-color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.gray__wrapper {
+    background-color: var(--additional-bg-color);
+}
+
+.main__title {
+    font-size: 48px;
+    line-height: 52px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.main__subtitle {
+    max-width: 715px;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px 0 34px 0;
+}
+
+.btn {
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.common__btn__block {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn.btn--green,
+.btn.btn--green-outline:hover,
+.btn.btn--white:hover,
+.btn.btn--white.active {
+    border: 1px solid var(--green-color);
+    color: white;
+    background-color: var(--green-color);
+}
+
+.btn.btn--green:hover,
+.btn.btn--green-outline {
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
+    background-color: white;
+}
+
+.toggle__real {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    opacity: 0;
+    appearance: none;
+}
+
+.toggle__fake {
+    transition: all 0.2s;
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 24px;
+    border: 1px solid #E4E6E9;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 24px;
+}
+
+.toggle__fake::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+    border-radius: 50%;
+    background-color: var(--green-color);
+    transition: all 0.2s;
+}
+
+.toggle__real:checked + .toggle__fake {
+    background-color: var(--green-color);
+}
+
+.toggle__real:checked + .toggle__fake::before {
+    background-color: white;
+    left: 36px;
+}
+
+.border-radius-30 {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* end UI */
+
+@media (max-width: 442px) {
+    /* UI */
+    .main__title {
+        font-size: 32px;
+    }
+    /* end UI */
+}

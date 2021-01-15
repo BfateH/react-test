@@ -1,0 +1,36 @@
+/* settings */
+
+@font-face {
+    font-family: 'Geometria';
+    src: local('Geometria'),
+        url('./fonts/Geometria/Geometria.woff') format('woff'),
+        url('./fonts/Geometria/Geometria.ttf') format('ttf'),
+        url('./fonts/Geometria/Geometria.eot') format('eot');
+}
+
+:root {
+    --main-bg-color: white;
+    --additional-bg-color:#F2F4F7;
+    --main-font-size: 18px;
+    --green-color: #00D36D;
+    --black-color: rgba(0, 0, 0, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Geometria', sans-serif;
+    font-size: var(--main-font-size);
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* end settings */

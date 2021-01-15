@@ -1,0 +1,49 @@
+/* offers */
+
+.offers__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.offer__block {
+    display: flex;
+    flex-direction: column;
+    max-width: 377px;
+    margin: 6px;
+}
+
+.offer__img img {
+    border-radius: 6px;
+    width: 100%;
+}
+
+.offer__footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75px;
+}
+
+.offer__footer {
+    display: flex;
+    align-items: center;
+}
+
+.offer__footer__img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.offer__footer__img img {
+    width: 100%;
+}
+
+.offer__footer__title {
+    font-size: 14px;
+    color: var(--black-color);
+}
+
+/* end offers */

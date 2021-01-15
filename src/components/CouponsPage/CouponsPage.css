@@ -1,0 +1,212 @@
+/* banner */
+
+.banner__block {
+    background: linear-gradient(90deg, #F76C55 0%, #DD599D 51.56%, #C250CD 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.banner__block img {
+    width: 100%;
+}
+
+/* end banner */
+
+/* content */
+
+.content__block {
+    padding: 50px;
+    padding-top: 0;
+}
+
+.content__h2--text {
+    font-size: 20px;
+    color: var(--black-color);
+    padding: 20px 0;
+}
+
+.content__div--text {
+    padding: 10px 0;
+}
+
+.content__ul--text {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.content__ul--text li {
+    color: var(--black-color);
+}
+
+.content__ul--text li span {
+    color: black;
+}
+
+.content__div--bold-text {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.content__ol--text {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.content__span--bold-text {
+    font-weight: bold;
+}
+
+.content__p--text {
+    padding: 10px 0;
+    line-height: 150%;
+}
+
+.content__link {
+    text-decoration: underline;
+    color: var(--green-color);
+    transition: all 0.2s;
+    line-height: 24px;
+}
+
+.content__link:hover {
+    text-decoration: none;
+}
+
+.content__p--small-text {
+    padding: 30px 0;
+    font-size: 12px;
+    color: var(--black-color);
+}
+
+/* end content */
+
+/* action (music) */
+
+.action__title {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.action__title__img {
+    width: 70px;
+    margin-right: 15px;
+}
+
+.action__title__img img {
+    width: 100%;
+}
+
+.action__title__text {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.action__cards__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.action__card {
+    padding: 20px 20px 40px 60px;
+    position: relative;
+    border: 1px dashed black;
+    max-width: 377px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.action__card:hover {
+    border: 1px solid var(--green-color);
+}
+
+.action__card_info {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.action__card_info img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.action__card_info span {
+    margin-right: 10px;
+}
+
+.action__card__img {
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.action__card__img img {
+    width: 100%;
+}
+
+.action__card__map {
+    cursor: pointer;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 12px;
+    color: var(--black-color);
+}
+
+/* end action (music) */
+
+/* yandex__map */
+
+.yandex__map {
+    border-radius: 8px;
+    padding-bottom: 80px;
+}
+
+/* end yandex__map */
+
+/* media */
+
+@media (max-width: 1199px) {
+    
+}
+
+@media (max-width: 767px) {
+    /* action (music) */
+
+    .action__cards__block {
+        justify-content: center;
+    }
+
+    /* end action (music) */
+}
+
+@media (max-width: 442px) {
+    /* action (music) */
+
+    .action__card {
+        padding: 10px 10px 20px 30px;
+    }
+
+    .action__card__img {
+        width: 20px;
+        top: 5px;
+        left: 5px;
+    }
+
+    /* end action (music) */
+}
+
+/* end media */
